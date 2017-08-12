@@ -1,0 +1,29 @@
+body{
+	font-family: 'Roboto', sans-serif;
+}
+/* menu */
+.header{
+	width: 1600px;
+	height: 60px;
+}
+.coluna{
+	padding: 0 10px;
+	float: left;
+}
+.area1{
+	width: 533,33px;
+}
+h1.logo{
+	font-size: 20px;
+}
+.area2{
+	width: 10666,66px;
+}
+ul.inline li{
+	display: inline-block;
+	font-size: 15px;
+}
+li.caixa{
+	width: 100px;
+	text-align: center;
+}
