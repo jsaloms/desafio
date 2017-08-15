@@ -5,6 +5,7 @@ body{
 .header{
 	width: 1600px;
 	height: 60px;
+	position: fixed;
 }
 .coluna{
 	padding: 0 10px;
@@ -24,6 +25,34 @@ ul.inline li{
 	font-size: 15px;
 }
 li.caixa{
-	width: 100px;
+	width: 150px;
+	height: 60px;
 	text-align: center;
+}
+.caixa1{
+	width: 100vw;
+	height: 100vh;
+	background-color: red;
+	padding-top: 25vh;
+	padding-bottom: 25vh;
+}
+.caixa2{
+	width: 50vw;
+	max-width: 1200px;
+	height: 50vh;
+	background-color: orange;
+	margin: auto;
+	margin-top: 25vh;
+	text-align: center;
+}
+.caixa3{
+	height: 60px;
+	background-color: blue;
+	margin: auto;
+	display: inline-block;
+}
+.caixa3 h5{
+	margin-right: 10px;
+	margin-left: 10px;
+	color: red;
 }
